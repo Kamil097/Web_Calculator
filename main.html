@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div id="displayclass" >
+                <div class="display" id="first"></div>
+                <div class="display" id="second"></div>
+                <div class="display" id="third"></div>
+            </div>
+
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <th class="button">C</th>
+                        <th class="button">CC</th>
+                        <th class="button">/</th>
+                        <th class="button">*</th>
+                    </tr>                
+                    <tr>
+                        <th class="button">&larr;</th>
+                        <th class="button">7</th>
+                        <th class="button">8</th>
+                        <th class="button">9</th>
+                    </tr>                
+                    <tr>
+                        <th class="button">-</th>
+                        <th class="button">4</th>
+                        <th class="button">5</th>
+                        <th class="button">6</th>
+                    </tr>                
+                    <tr>
+                        <th class="button">+</th>
+                        <th class="button">1</th>
+                        <th class="button">2</th>
+                        <th class="button">3</th>
+                    </tr>                
+                    <tr>
+                        <th class="button">x^y</th>
+                        <th class="button">x↔y</th>
+                        <th class="button">gcd</th>
+                        <th class="button">0</th>
+                    </tr>
+                    <tr>
+                        <th class="button">mod</th>
+                        <th class="button">p+q</th>
+                        <th class="button">frac</th>
+                        <th class="button"id="enter">Enter</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+        
+    </body>
+</html>
